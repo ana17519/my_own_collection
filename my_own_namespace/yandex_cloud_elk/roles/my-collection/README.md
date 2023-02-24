@@ -23,6 +23,7 @@ Role Variables
 Example Playbook
 ----------------
 
+
 ```
 ---
 - name: My own module
