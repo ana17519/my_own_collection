@@ -1,0 +1,10 @@
+---
+- name: My own module
+  hosts: localhost
+  tasks:
+    - name: Create file with content
+      my_own_module:
+        path: "/Users/anastasiasuhodola/Desktop/any888.txt"
+        state: touch
+        content: "anycontent"
+

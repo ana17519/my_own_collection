@@ -1,0 +1,7 @@
+---
+- name: create file with content
+  my_own_module:
+    path: "{{ path}}"
+    state: "{{ state}}"
+    content: "{{ content}}"
+

@@ -1,0 +1,5 @@
+---
+- name: My own module
+  hosts: localhost
+  roles:
+    - my-collection
